@@ -17,5 +17,7 @@
 * { box-sizing: border-box; }
 body { min-width: 320px; min-height: 100vh; margin: 0; background: radial-gradient(circle at 85% 0%, #e6efe7 0, transparent 30%), #f7f5f0; }
 button, input, textarea { font: inherit; }
+button:not(:disabled), a[href], summary, label[for], input[type='date'], input[type='checkbox'], input[type='radio'], select { cursor: pointer; }
+input[type='date']::-webkit-calendar-picker-indicator { cursor: pointer; }
 button, a { -webkit-tap-highlight-color: transparent; }
 ::selection { background: #dbe8df; }
