@@ -5,8 +5,7 @@ Dailydots is a small daily journal app. Write one entry per day, pick a mood, an
 ## Features
 
 - Home page with the latest entry, total entries written, and latest mood.
-- Add an entry with a date, a mood (Bright, Good, Steady, Low, Tough), and free text.
-- Quick date picker for the past 7 days, plus a native date input for any other date.
+- Add an entry with a date, a mood (Bright, Good, Steady, Low, Tough), and free text, with a live character counter under the journal text box.- Quick date picker for the past 7 days, plus a native date input for any other date.
 - One entry per date: saving to a date that already has an entry updates it.
 - "My journals" archive, sorted newest first, with edit and delete (delete asks for confirmation).
 - Responsive layout with a mobile navigation menu and a "Page not found" route.

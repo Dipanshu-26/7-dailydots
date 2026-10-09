@@ -68,6 +68,7 @@ Behavior to be aware of:
 - `/new` starts with today's date and the `steady` mood. `/edit/:date` loads the existing entry for that date.
 - `RecentDatePicker` offers the last 7 days (`RECENT_DAYS_COUNT`); the date input allows any date.
 - Saving with empty or whitespace-only text shows "Add a few words before saving." and does not save. Text is trimmed on save, and the app then navigates to `/journals`.
+- A live character counter below the journal textarea shows `draft.text.length` (raw length, including whitespace, before trimming). There is no maximum length. The counter is linked to the textarea through `aria-describedby`.
 - If the selected date already has an entry while creating a new one, a notice says saving will update it.
 
 ## Styling
